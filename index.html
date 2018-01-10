@@ -36,17 +36,6 @@ body {
     display: inline;
 }
 
-#TOP .WORK-MOVE {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  position: relative;
-  overflow: hidden;
-}
-
-
 a {
     text-decoration: none;
     color: black;
@@ -77,8 +66,6 @@ a:active {
 }
 
 .li-work {
-  display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
@@ -93,7 +80,7 @@ a:active {
   left: 0;
   right: 100%;
   bottom: -2;
-  background: #32b8cc;
+  background: #C9283E;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -143,14 +130,21 @@ a:active {
 
 .Designed-by {
     color: #777;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
     text-align: center;
 }
 
 .Designed-by a {
-    color: #AAA;
+    color: #CCC;
     text-align: center;
+}
+            
+.Copyright {
+    color: #555;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
 }
 
 .text-box {
@@ -172,7 +166,7 @@ a:active {
             </a>
                 <nav>
                 <ul>
-                    <li><a class="li-work" href="index.html" class="WORK-MOVE">WORK</a></li>
+                    <li><a class="li-work" href="index.html">WORK</a></li>
                     <li>ABOUT</li>
                     <li>RESUME</li>
                     <li>CONTACT</li>
@@ -190,6 +184,7 @@ a:active {
        <div id="BOTTOM">
           <div class="text-box">
            <p class="Designed-by">Designed by <a>SangJun Park</a></p>
+           <p class="Copyright"> Copyright 2017 Ian Lunn Design Limited</p>
           </div>
        </div>
     </body>
