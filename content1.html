@@ -1,0 +1,226 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SingJn | PORTFOILO</title>
+        <style>
+            @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+            
+            body {
+                font-family: 'Noto Sans KR', sans-serif;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            /* TOP */
+
+            #logo {
+                width: 60px;
+                height: 60px;
+                margin: 5px 5px 5px 5px;
+                float: left;
+            }
+
+            #TOP ul {
+                margin: 0 0 0 0;
+                width: 100%;
+                height: 47px;
+                padding-top: 23px;
+                margin-right: 40px;
+            }
+
+            #TOP li {
+                font-family: 'Noto Sans KR', sans-serif;
+                font-size: 17px;
+                font-weight: 200;
+                margin-left: 40px;
+                align-items: center;
+                display: inline;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            a:active {
+                text-decoration: none;
+            }
+
+            #TOP {
+                display: flex;
+                justify-content: center;
+                height: 70px;
+                background-color: white;
+                box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.03);
+            }
+
+            #TOP nav {
+                float: right;
+            }
+
+            #TOP_section {
+                width: 840px;
+            }
+
+             /*Copyright 2017 Ian Lunn Design Limited*/           
+            .li-work {
+              -webkit-transform: perspective(1px) translateZ(0);
+              transform: perspective(1px) translateZ(0);
+              box-shadow: 0 0 1px transparent;
+              position: relative;
+              overflow: hidden;
+            }
+
+            .li-work:before {
+              content: "";
+              position: absolute;
+              z-index: -1;
+              left: 0;
+              right: 100%;
+              bottom: -2;
+              background: #C9283E;
+              height: 4px;
+              -webkit-transition-property: right;
+              transition-property: right;
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-timing-function: ease-out;
+              transition-timing-function: ease-out;
+            }
+            .li-work:hover:before, .li-work:focus:before,.li-work:active:before {
+              right: 0;
+            }
+
+            /*  BODY  */
+
+            #BODY {
+                display: flex;
+                justify-content: center;
+            }  
+            
+            .body-bg {
+                width: 100%;
+                margin-bottom: 70px;
+            }
+
+            .pic {
+                padding-top: 70px;
+                width: 100%;
+                height: auto;
+            }
+            
+            .body-text-bg {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .body-text-box {
+                width: 700px;
+            }
+            
+            .title {
+                padding-top: 70px;
+            }
+            
+            .column {
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 1.7;
+                letter-spacing: .9px;
+                color: #666;
+            }
+            
+            .prototype-link {
+                color: #6495cc;
+            }
+
+
+            /* BOTTOM */
+
+            #BOTTOM {
+                background-color: #111;
+                height: 150;
+            }
+
+            #BOTTOM p {
+                font-family: 'Noto Sans KR', sans-serif;
+                margin: 0;
+                padding-top: 
+            }
+
+            .Designed-by {
+                color: #777;
+                font-size: 20px;
+                font-weight: 300;
+                text-align: center;
+            }
+
+            .Designed-by a {
+                color: #CCC;
+                text-align: center;
+            }
+
+            .text-box {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+       <div id='TOP'>
+           <div id="TOP_section">
+            <a href="index.html">
+                <img src="https://user-images.githubusercontent.com/33142878/34545558-20939f28-f131-11e7-8980-1f33e7f6e8eb.png" alt="귀여운 고양이" id='logo'>
+            </a>
+                <nav>
+                <ul>
+                    <li><a class="li-work" href="index.html">WORK</a></li>
+                    <li>ABOUT</li>
+                    <li>RESUME</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </div>
+       </div>
+       <div id="BODY">
+          <div class="body-bg">
+           <img class='pic' src="https://user-images.githubusercontent.com/33142878/34809675-d346bb3e-f6d9-11e7-8897-56ff2f4f58d3.png" alt="naver-dic">
+           <div class="body-text-bg">
+               <div class= "body-text-box">
+                   <h1 class='title'>개요</h1>
+                   <p class='column'>버스에서 손이 작으신 여성분이 한손으로 노트8을 들고 아슬아슬하게 사용하는 것을 봤습니다.
+        디바이스가 길어지는 추세라고 여의봉처럼 길어지진 않겠지만, 그래도 엄지가
+        위쪽까지 가기가 힘들었던 건 저도 그랬던 것 같아 개선하고자 생각이 들었습니다.</p>
+                   <h1 class='title'>왜 '네이버 사전'인가?</h1>
+                   <p class='column'>검색은 타이핑을 위해 주로 두손을 사용하지만, 그 이외의 복사/붙여넣기 라던가, 아니면
+        위쪽의 다른 메뉴에 접근 할 때는 한손으로도 충분히 사용 가능합니다. 하지만 너무 멀어진 거리로
+        한 손으로 건드리기에는 어느정도 위험을 감수해야 합니다. 네이버 사전의 경우에는
+        위쪽에 검색창, 그리고 더 위에는 다른 메뉴들이 위치하고 있는데, 한손으로도 충분히 할 수 있지만
+        너무 멀기에 보조손으로 받쳐주거나 합니다. 이를 개선할 수 있는 아이디어가 생각났습니다.</p>
+                   <h1 class='title'>개선안</h1>
+                   <p class='column'>검색창이 맨위에 위치한 화면에서 더 위로 드래그를 할시에 검색창이 아래로 내려옵니다. 기존의
+        레이아웃을 건드리지 않음으로 유저들이 어색함을 느끼지 않을 것 입니다. 드래그를 할 시에
+        갑작스러운 변화에 의문을 가질 수 있으므로, '엄지를 위한 작은 선물입니다' 라는 코멘트를 써넣음으로써
+        '아~ 그런 기능이구나' 하고 눈치챌 수 있도록합니다.</p>
+                   <h1 class='title'>프로토타입 링크</h1>
+                   <p><a  class='prototype-link' href="https://framer.cloud/aMtyr/">https://framer.cloud/aMtyr/</a></p>
+              </div>
+            </div>
+          </div>
+       </div>
+       <div id="BOTTOM">
+          <div class="text-box">
+           <p class="Designed-by">Designed by <a>SangJun Park</a></p>
+          </div>
+       </div>
+    </body>
+ </html>
