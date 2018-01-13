@@ -1,133 +1,186 @@
-    <html>
+<html>
     <head>
         <meta charset="utf-8">
         <title>SingJn | PORTFOILO</title>
         <style>
             @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
             
-body {
-    padding: 0px;
-    margin: 0px;
-}
+            body {
+                font-family: 'Noto Sans KR', sans-serif;
+                padding: 0px;
+                margin: 0px;
+            }
 
-/* TOP */
+            /* TOP */
 
-#logo {
-    width: 60px;
-    height: 60px;
-    margin: 5px 5px 5px 5px;
-    float: left;
-}
+            #logo {
+                width: 60px;
+                height: 60px;
+                margin: 5px 5px 5px 5px;
+                float: left;
+            }
 
-#TOP ul {
-    margin: 0 0 0 0;
-    width: 100%;
-    height: 47px;
-    padding-top: 23px;
-    margin-right: 40px;
-}
+            #TOP ul {
+                margin: 0 0 0 0;
+                width: 100%;
+                height: 47px;
+                padding-top: 23px;
+                margin-right: 40px;
+            }
 
-#TOP li {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 17px;
-    font-weight: 200;
-    margin-left: 40px;
-    align-items: center;
-    display: inline;
-}
+            #TOP li {
+                font-family: 'Noto Sans KR', sans-serif;
+                font-size: 17px;
+                font-weight: 200;
+                margin-left: 40px;
+                align-items: center;
+                display: inline;
+            }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+            a {
+                text-decoration: none;
+                color: black;
+            }
 
-a:visited {
-    text-decoration: none;
-}
+            a:visited {
+                text-decoration: none;
+            }
 
-a:active {
-    text-decoration: none;
-}
+            a:active {
+                text-decoration: none;
+            }
 
-#TOP {
-    display: flex;
-    justify-content: center;
-    height: 70px;
-    background-color: white;
-    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.03);
-}
+            #TOP {
+                display: flex;
+                justify-content: center;
+                height: 70px;
+                background-color: white;
+                box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.03);
+            }
 
-#TOP nav {
-    float: right;
-}
+            #TOP nav {
+                float: right;
+            }
 
-#TOP_section {
-    width: 840px;
-}
+            #TOP_section {
+                width: 840px;
+            }
+
+             /*Copyright 2017 Ian Lunn Design Limited*/           
+            .li-work {
+              -webkit-transform: perspective(1px) translateZ(0);
+              transform: perspective(1px) translateZ(0);
+              box-shadow: 0 0 1px transparent;
+              position: relative;
+              overflow: hidden;
+            }
+
+            .li-work:before {
+              content: "";
+              position: absolute;
+              z-index: -1;
+              left: 0;
+              right: 100%;
+              bottom: -2;
+              background: #C9283E;
+              height: 4px;
+              -webkit-transition-property: right;
+              transition-property: right;
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-timing-function: ease-out;
+              transition-timing-function: ease-out;
+            }
+            .li-work:hover:before, .li-work:focus:before,.li-work:active:before {
+              right: 0;
+            }
+
+            /*  BODY  */
+
+            #BODY {
+                display: flex;
+                justify-content: center;
+            }  
             
- /*Copyright 2017 Ian Lunn Design Limited*/           
-.li-work {
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  position: relative;
-  overflow: hidden;
-}
+            .body-bg {
+                width: 100%;
+                margin-bottom: 70px;
+            }
 
-.li-work:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: -2;
-  background: #C9283E;
-  height: 4px;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.li-work:hover:before, .li-work:focus:before,.li-work:active:before {
-  right: 0;
-}
-
+            .pic {
+                padding-top: 70px;
+                width: 800px;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
             
+            .body-text-bg {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .body-text-box {
+                width: 700px;
+            }
+            
+            .title {
+                padding-top: 70px;
+            }
+            
+            .column {
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 1.7;
+                letter-spacing: .9px;
+                color: #666;
+            }
+            
+            .prototype-link {
+                color: #6495cc;
+            }
+            
+            .prototype-link:hover {
+                text-decoration: underline;
+                color: #111;
+            }
+
+
             /* BOTTOM */
 
-#BOTTOM {
-    background-color: #111;
-    height: 150;
-}
+            #BOTTOM {
+                background-color: #111;
+                height: 150;
+            }
 
-#BOTTOM p {
-    font-family: 'Noto Sans KR', sans-serif;
-    margin: 0;
-    padding-top: 
-}
+            #BOTTOM p {
+                font-family: 'Noto Sans KR', sans-serif;
+                margin: 0;
+                padding-top: 
+            }
 
-.Designed-by {
-    color: #777;
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-}
+            .Designed-by {
+                color: #777;
+                font-size: 20px;
+                font-weight: 300;
+                text-align: center;
+            }
 
-.Designed-by a {
-    color: #CCC;
-    text-align: center;
-}
+            .Designed-by a {
+                color: #CCC;
+                text-align: center;
+            }
 
-.text-box {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-}
+            .text-box {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+            }
         </style>
     </head>
     <body>
@@ -147,7 +200,55 @@ a:active {
         </div>
        </div>
        <div id="BODY">
-           
+          <div class="body-bg">
+           <img class='pic' src="https://user-images.githubusercontent.com/33142878/34905231-af87c96c-f897-11e7-8e78-0928bae02847.png" alt="getting">
+           <div class="body-text-bg">
+               <div class= "body-text-box">
+                   <h1 class='title'>Getting Over It with Bennett Foddy</h1>
+                   <p class='column'>이 게임을 포트폴리오에 넣는 것은 엉뚱한 짓일지도 모릅니다. 하지만 저에게 많은 것을 느끼게 해준 이 게임을 저는
+제가 했던 생각과 함께 여러분들께 소개시켜드리고 싶습니다.</p>
+                   <p class='column'>디자이너가 되고싶어 나름의 방법으로 노력하고 실패하며 힘들어 할 때, 이 게임을 하게 됬습니다. 클리어 하기 어렵다고
+소문도 나있고, 그저 클리어해서 친구에게 자랑하고 싶었습니다. 머리식힐겸 가볍게 시작한 게임은 결코 가볍지 않았습니다.</p>
+                   <p class='column'>​
+많은 사람들이 장난삼아서 이 게임을 구매한 자신을 비하하곤 합니다. 이 게임은 익숙치 않으면 상당히 어렵기 때문입니다.
+누구나 겪듯이 저도 적응하기까지 꽤나 힘든 시간을 보냈습니다. 몇시간의 노력이 수포로 돌아가거나, 도저히 못할 것 같다고 느낄 때
+애초에 시작하지를 말껄하며 후회하는 자신이 있었습니다. </p>
+                   <p class='column'>고2 미술시간에, 책 만들기 수업을 했습니다. 내용은 자유였지만 무슨 내용을 담아야 하는지 고민하면서 무언가를 만든다는 것은
+나의 창작물을 보는 누군가에게 어떤 것이든 표현하기 위해서, 이해받기 위해서, 설득하기 위해서 쓰는것이라고 생각이 들었습니다.
+이 게임 또한 저에게 무언가를 말해주려는 것 같았습니다.</p>
+                   <p class='column'>이 게임을 제작한 Bennett Foddy는 저에게 용기를 주고 싶어한거라고 저는 생각합니다.
+​처음보는 광경의 산은 디자이너가 되고 싶어 하는 저에게 한없이 낯선, 처음으로 마주하는
+디자이너로서의 길인 것 같았습니다. 조작에 익숙해지고, 거듭된 실패의 씁쓸함에 무뎌지며
+아무생각없는 상태로 산 정상에 도달할 때 즈음, 그는 이렇게 말합니다. </p>
+                   <p class='column'>​플레이어인 당신은 항아리에 갇힌 그도 아니고
+그의 망치도 아니며 당신은 그의 올라가고자 하는 의지가 되어 이 게임을 플레이하고 있다.</p>
+                   <p class='column'>살아가는 방법을 배운 것 같았습니다. 거듭된 실패, 절망속에서도 무언가 하고자 하는 마음을
+가지면 된다고 말하고 있었습니다. 실패하고 이런저런 핑계를 붙이며 포기한 적은 많았습니다. 포기하면 편하니까요.
+디자이너가 된다라는 생각도 점점 옅어지고 있었습니다. 저사람들은 저렇게 멋있게 해내는데 왜 나는 그러지 못할까하고.
+게임 도중에 나오는 명언들은 꽤나 오랜시간 부정적인 생각을 머릿속에 담고 있었던 저에게 정신을 차리라고
+냉수를 끼얹는 느낌이었습니다. </p>
+                   <p class='column'>디자이너가 되기를 포기하고, 지금까지 살아왔던 대로 아무런 변화없이 맞이할 미래를 생각하니 
+정말 참담했습니다. '그 때 해볼껄'후회 리스트에 하나가 더 추가되는 것은 너무나도 싫었습니다.
+그럼에도 사람은 쉽게 바뀌지 않았습니다. 막연한 걱정을 하면서 하루종일 게임을 했습니다.
+마음의 구석이라도 미래에 대해 걱정한다는 사실을 위안으로 눈동자, 손가락을 움직였습니다.</p>
+                   <p class='column'>코딩야학 3기를 신청했었습니다. 갑자기 해야할일이 생긴 저는 개인의 포트폴리오 홈페이지를 만드는 것을 목적으로 잡았고 10일의 시간은 흘러갔습니다.
+게임을 계속하면서 머릿속에 스쳐가는 생각들이 움직여야 할 때라고 저를 보챘습니다. 정말 조금씩 홈페이지를 제작해갔습니다.
+게임하느라 아무것도 안한날도, 졸업식이라고, 사촌결혼식이라고 아무것도 안한날도 있었습니다. 아무것도 안한 날에는 프로젝트표에
+아무것도 안함이라고 적었습니다. 이런 자신이 답답하다 그런 생각이 들때 스스로 냉수를 끼얹기 위해 저 게임을 켰습니다.</p>
+                   <p class='column'>Getting Over It을 하던 중에는 고통받았던 모습, 처음에 깼을 때에 성취감, 명언들이 저를 움직이게 했습니다.
+프로젝트표를 보며 조금씩 자극을 받으며 가속이 붙었습니다. 처음엔 메인페이지만 만들고 말아야지 싶었지만
+상세페이지도 제작하게 되었습니다. 처음에 계획한 대로였습니다. 중간에 이쯤하면 됬겠지 처음에 설계를 너무 어렵게 했어. 내 능력밖의 일이야
+하고 포기하려했던 본인이 조금은 어리석었다고 느껴졌습니다. </p>
+                   <p class='column'>주변의 많은 것들이 저를 실패에 가만히 멈춰있지 않고 움직이도록 격려해줬지만,
+저에게 격러해준 게임은 Getting over it이 처음이기 떄문에 이렇게 포트폴리오에 자리를 만들어줬습니다.
+제작자에게 감사를 담으면서 마무리하겠습니다. 긴글 읽어 주셔서 감사합니다.</p>
+                   <p class='column'>​
+This thing that we call failure is not the falling down, but the staying down.</p>
+                   <p class='column'>우리가 실패라고 부르는 것은 추락하는 것이 아니라 추락한 채로 있는 것이다.</p>
+                   <p class='column'>메리 픽포드</p>
+              </div>
+            </div>
+          </div>
        </div>
        <div id="BOTTOM">
           <div class="text-box">
