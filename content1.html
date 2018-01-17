@@ -104,7 +104,7 @@
             
             .body-bg {
                 width: 100%;
-                margin-bottom: 70px;
+                margin-bottom: 40px;
             }
 
             .pic {
@@ -154,8 +154,7 @@
 
             #BOTTOM p {
                 font-family: 'Noto Sans KR', sans-serif;
-                margin: 0;
-                padding-top: 
+                margin: 0; 
             }
 
             .Designed-by {
@@ -177,6 +176,80 @@
                 flex-direction: column;
                 align-content: center;
                 justify-content: center;
+            }
+            
+            .bottom-nav {
+                margin-top: 70px;
+            }
+            
+            .pre {
+                float: left;
+            }
+            
+            .next {
+                float: right;
+            }
+            
+            @media (max-width:800px){
+                .body-text-box {
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    width: auto;
+                }
+                
+                .pic {
+                    content: url("https://user-images.githubusercontent.com/33142878/35046476-7143fcde-fbda-11e7-8152-2f08b31f4b46.png");
+                }
+                
+            }
+            
+            @media (max-width:600px){
+                #TOP {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 140px;
+                    background-color: white;
+                    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.03);
+                }
+
+                #logo {
+                    display: block;
+                    width: 60px;
+                    height: 60px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    float: none;
+                }
+
+                #TOP nav {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    float: none;
+                }
+
+                #TOP ul {
+                    display: flex;
+                    justify-content: center;
+                    width: auto;
+                    height: 47px;
+                    padding-top: 23px;
+                    padding-left: 0px;
+                    margin-right: 0px;
+                }
+
+                .body-text-box {
+                    width: 400px;
+                }
+
+                .li-work {
+                    margin-left: 0px;
+                }
+
+                #TOP li:first-child {
+                    margin-left: 0px;
+                }
             }
         </style>
     </head>
@@ -218,6 +291,7 @@
         '아~ 그런 기능이구나' 하고 알 수 있도록 도와줍니다.</p>
                    <h1 class='title'>프로토타입 링크</h1>
                    <p><a class='prototype-link' href="https://framer.cloud/aMtyr/">https://framer.cloud/aMtyr/</a></p>
+                   <p class="bottom-nav"><a class="pre"href="content3.html">-- PREVIOUS PROJECT</a><a class="next"href="content2.html">NEXT PROJECT --</a></p>
               </div>
             </div>
           </div>
